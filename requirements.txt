@@ -5,3 +5,12 @@ jaxlib
 optax
 numpy
 ml-collections
+
+# Extras for collabs
+jupyter
+ipykernel
+ipywidgets
+matplotlib
+tensorflow_datasets
+tensorflow
+tensorrt
