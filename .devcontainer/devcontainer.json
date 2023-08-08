@@ -13,6 +13,7 @@
 			"extensions": [
 				"ms-python.python",
 				"njpwerner.autodocstring",
+				"ms-toolsai.jupyter",
 			],
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "bash",
@@ -30,5 +31,6 @@
 		"all",
 		"--shm-size",
 		"16G"
-	]
+	],
+	"postStartCommand": "pip install -e ."
 }

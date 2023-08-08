@@ -1,11 +1,13 @@
+--extra-index-url https://pypi.nvidia.com tensorrt_libs
 chex
 flax
 optax
 numpy
 ml-collections
 protobuf<=3.20
-jax[cuda12_pip] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
--e .
+jax
+# jax[cuda12_pip] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+# -e .
 
 # Extras for collabs
 jupyter
@@ -14,4 +16,3 @@ ipywidgets
 matplotlib
 tensorflow_datasets
 tensorflow
-tensorrt
